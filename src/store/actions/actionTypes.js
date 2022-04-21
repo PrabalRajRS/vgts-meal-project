@@ -1,0 +1,10 @@
+export const GET_MEALS = "GET_MEALS";
+export const GET_MEAL_CATEGORIES = "GET_MEAL_CATEGORIES";
+export const GET_MEALS_SUCCESS = "GET_MEALS_SUCCESS";
+export const MEALS_FAIL = "MEALS_FAIL";
+
+export const FILTER_MEAL_SUCCESS = "FILTER_MEAL_SUCCESS";
+
+export const GET_MEAL_SUCCESS = "GET_MEAL_SUCCESS";
+
+export const SAVE_FORM = "SAVE_FORM";
