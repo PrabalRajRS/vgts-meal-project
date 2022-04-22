@@ -10,7 +10,7 @@ const MealsCardList = ({ list }) => {
     }
     return (
         <div className="list-cards">
-            {list?.map((data) => (
+            {list?.slice(0,10)?.map((data) => (
                 <Card className='card'
                     onClick={() => onOpenMeal(data.idMeal)}
                     key={data.idMeal}
